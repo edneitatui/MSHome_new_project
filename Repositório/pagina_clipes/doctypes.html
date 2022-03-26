@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Video Tag Example</title>
+</head>
+<body>
+<br>
+
+      <A HREF="clipes.htm" target="_blank"><IMG SRC="led_zeppelin.jpg"></A>&nbsp &nbsp
+
+
+<video controls poster="led_zeppelin.jpg" source src="pagina_clipes/led_zeppelin_stairway_to_heaven.mp4" type="video/mp4" >
+
+</video>
+
+<script>
+ var myVideo=document.getElementById("custom_video_play");
+  function makeBig()
+   {
+    myVideo.width=650;
+   }
+  function makeSmall()
+   {
+    myVideo.width=350;
+   }
+  function makeNormal()
+   {
+    myVideo.width=450;
+   }
+</script>
+
+<button onclick="makeBig()">Adjust: Large Screen</button>
+<button onclick="makeSmall()">Adjust: Small Screen</button>
+<button onclick="makeNormal()">Adjust: Normal Screen</button>
+
+<p></p>
+</body>
+</html>

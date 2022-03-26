@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* ======================= NAV-MENU.CSS ===================== */
+.menu {
+    padding: 5px;
+    text-align: center;
+}
+.menu > a {
+    background-color: rgba(8, 8, 150, 0.774);
+    color: rgba(246, 247, 248, 0.808);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color .5s;
+
+}
+.menu > a:hover {
+    background-color: rgba(14, 14, 240, 0.849);
+    color: white;
+}
+.menu > a:active {
+    color: rgba(39, 214, 106, 0.808);
+    border-radius: 5px 2px 2px .7;
+    padding: 5px; 
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}

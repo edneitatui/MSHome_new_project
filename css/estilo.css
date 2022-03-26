@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+
+/* =================== SECTION - MANUTENÇÃO ======================== */
+/* =========configuração da <section class="manutencao"> =========== */ 
+
+
+
+/*  ======================= insere a sombra no box ===================== */
+/*  =============Configuração do <figure a class="imagem"> ========= */
+
+
+/* =================== Configuração do <figcaption class="aviso"> =================*/
+
+/* ATENÇÃO: Devido ao fato de eu não dominar a técnica de configurar corretamente o CSS, 
+algumas gambiarras tive de fazer para adequar a imagem de manutenção, e par que funcionasse como esperado. Mais para frente, deverei voltar a este capítulo para acertar de vez o posicionamento desta imagem. */
+
+
+/* ====================== Configuração texto principal ====================== */
+/* =========================<section class="texto">========================== */
+
+.texto h2 {
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+
+}
+.texto {
+    text-align: justify;
+    display: contents;
+    padding-top: 35px;
+    text-indent: 35px;
+
+}

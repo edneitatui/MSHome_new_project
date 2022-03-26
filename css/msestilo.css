@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* ====================== MSESTILO.CSS ========================= */
+* {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+}
+body {
+    position: absolute;
+    width: 800px;
+    height: 1200px;
+    padding-top: 125px;
+}
+.titulo {
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 3px 2px 0px rgb(1, 1, 71, 0.5);
+    background-color: rgba(4, 4, 148, 0.836);
+}
+header > h1 {                   /* MSHOME */
+    font-size: 50px;
+    color: orange;
+    top: -30px;
+}
+header > h2 {                   /* My Sweet Home */
+    color: greenyellow;
+    font-weight: lighter;
+}
+header > h3 {                   /* frase: Portal de acesso à internet ..... */
+    color: rgba(248, 224, 11, .9);
+}
+
+/*============================= TEXTO =========================== */
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 5%;
+}
+/*============================= FOOTER =========================== */
+.volta{
+    position: fixed;
+    z-index:99999;
+    bottom: 1px; 
+    left: 10px;
+    height: 36px; 
+}
+footer > p {
+    text-align: center;
+}
+#copy {
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(6, 182, 182);
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* ================== Configuração do Corpo da Page Principal =====================*/
+body {
+    background-image: linear-gradient(to top, rgb(128, 187, 247), rgb(7, 7, 136)); 
+    /* noite */
+    /* background-image: linear-gradient(to top, rgb(128, 187, 247), rgb(9, 9, 95)); dia */
+    background-attachment: fixed;
+    font: normal 15px arial;
+    width: auto;
+    height: auto;
+}
+

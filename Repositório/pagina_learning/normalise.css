@@ -1,0 +1,25 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+ * {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  background-image: linear-gradient(to top, rgb(128, 187, 247), rgb(9, 9, 95));
+  background-attachment: fixed;
+  font: normal 15px arial;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+

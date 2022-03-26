@@ -1,0 +1,16 @@
+@charset "UTF-8"; 
+/* ====================== TESTE.CSS ========================= */
+body {
+    background-image: url('/imagens/teste/under_manutence.png');
+    background-color: rgb(123, 115, 245);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.testando {
+    height: 60vh;
+}
+div > p{
+    background: fixed;
+}

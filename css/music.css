@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* ====================== MUSIC.CSS =========================*/
+body {
+    height: 1000px;
+    background-image: url('/imagens/musicas/musicground1.png');
+    background-color: rgb(123, 115, 245);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }

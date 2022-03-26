@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+/* ========= NAV class='local'- MENU- LINKS PASTAS INTERNAS ========= */
+
+.local {
+    padding: 1px;
+    text-align: center;
+    image-orientation: center;
+}
+img {
+    padding: 1%;
+    max-width: 80%;
+    width: 140px;           /* define o tamanho dos banners */
+    height: 60px;
+}
